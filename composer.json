@@ -1,0 +1,23 @@
+{
+    "name": "axelreyes/bienes-raices-poo_php_refactor_fin",
+    "description": "Primer proyecto de poo",
+    "autoload": {
+        "psr-4": {
+            "Model\\":"./models",
+            "MVC\\":"./",
+            "Controllers\\":"./controllers"
+       
+        }
+    },
+    "authors": [
+        {
+            "name": "XavierReyes1",
+            "email": "100733023+XavierReyes1@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "2.7",
+        "phpmailer/phpmailer": "^6.10"
+    }
+    
+}
